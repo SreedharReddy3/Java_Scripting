@@ -1,5 +1,5 @@
-var today = new Date();
-var hourNow = today.getHours();
+var today = new Date();  // Date(); is a Class.
+var hourNow = today.getHours(); //getHours is a method.
 var greeting ;
 
 if(hourNow > 20){
@@ -13,4 +13,4 @@ if(hourNow > 20){
 } else {
 	greeting = 'Welcome...!' ;
 }
-document.write('<h3>'+greeting+'</h3>');
+document.write('<h3>'+greeting+'</h3>'); 
